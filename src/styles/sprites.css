@@ -1,0 +1,27 @@
+/* Pixel Art Rendering */
+.pixel-art {
+	image-rendering: pixelated;
+	image-rendering: crisp-edges;
+}
+
+.grass-tile {
+	background-image: url("/content/Bush_01.png");
+	background-repeat: repeat;
+}
+
+.flower {
+	width: 4px;
+	height: 4px;
+	background-color: #ffffff;
+	position: absolute;
+	border-radius: 50%;
+	opacity: 0.5;
+}
+
+.tree {
+	width: 32px;
+	height: 32px;
+	background-image: url("/content/Tree_01.png");
+	background-size: contain;
+	position: absolute;
+}
